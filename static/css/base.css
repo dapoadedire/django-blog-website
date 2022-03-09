@@ -1,0 +1,79 @@
+
+
+header h1 a {
+    color: darkgreen; 
+    text-decoration: none !important;
+   
+}
+
+header{
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.about a{
+    color: darkgreen;
+}
+
+.post-entry {
+    margin-bottom: 2rem;
+}
+
+.post-entry h2{
+    margin: 0.5rem 0;
+    text-decoration:none;
+}
+
+.post-entry h2 a{
+    color: rgb(10, 92, 10);
+    text-decoration: none;
+    text-decoration-color: darkslategray;
+}
+
+
+.post-entry h2 a:visited {
+    color: rgb(23, 36, 22);
+    text-decoration: none;
+    text-decoration-color: darkslategray;
+}
+
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.post-entry h2 a:hover {
+    color: rgb(34, 211, 28);
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    border-top: 1px dashed black !important;
+    text-align: center;
+}
+footer a{
+    color:darkgreen;
+}
+
+footer ul li{
+    display: inline;
+  }
