@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import BlogListView, BlogDetailView,# BlogCreateView#new
+from .views import BlogListView, BlogDetailView# BlogCreateView#new
 
 urlpatterns = [
     path('', BlogListView.as_view(), name='home'),
