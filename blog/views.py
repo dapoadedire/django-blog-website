@@ -20,3 +20,4 @@ class BlogCreateView(CreateView):
     template_name = 'post_new.html'
     fields = '__all__'
 """
+#okay boss
