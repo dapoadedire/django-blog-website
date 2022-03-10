@@ -8,11 +8,19 @@
         <meta name="google" content="notranslate" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
+        {% comment %} <link rel="preconnect" href="https://fonts.googleapis.com"> {% endcomment %}
+        {% comment %} <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> {% endcomment %}
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;373&family=Lato:wght@400&family=League+Spartan:wght@400&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1><a href="{% url 'home'%}">Dapo Adedire's Blog</a></h1>
+            <div class="nav-left">
+                <h1><a href="{% url 'home' %}">Dapo Adedire's Blog</a></h1>
+            </div>
+            <div class="nav-right">
+                <a href="{% url 'post_new' %}">+ New Blog Post</a>
+            </div>
         </header>
 
         <div>

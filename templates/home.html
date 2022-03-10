@@ -10,7 +10,7 @@
        
        <div class="post-entry">
            <h2><a href="{% url 'post_detail' post.pk %}"><u>{{ post.title }}</u></a></h2>
-           <p style="color:grey;" >{{ post.datepublished }}</p>
+           <p class='pub' >{{ post.datepublished }}</p>
            {% comment %} <p>{{ post.body | slice:":50" }}</p> {% endcomment %}
         </div>
     {% endfor %}

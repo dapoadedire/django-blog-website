@@ -8,12 +8,13 @@ header{
     display: flex;
     border-bottom: 1px dashed black;
     margin-bottom: 2rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fredoka', sans-serif;
 }
 
 body{
     font-size: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 'Fredoka', sans-serif;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -25,10 +26,19 @@ body{
 .nav-right {
     display: flex;
     padding-top: 2rem;
+    font-weight: 900;
 }
-
-.about a{
+.nav-right a{
     color: darkgreen;
+}
+.about a, h2{
+    color: darkgreen;
+}
+.about h2{
+    font-family: 'League Spartan', sans-serif;
+}
+.about p{
+    font-family: 'Lato', serif;
 }
 
 .post-entry {
@@ -36,6 +46,7 @@ body{
 }
 
 .post-entry h2{
+    font-family: 'League Spartan', sans-serif;
     margin: 0.5rem 0;
     text-decoration:none;
 }
@@ -48,23 +59,27 @@ body{
 
 
 .post-entry h2 a:visited {
-    color: rgb(23, 36, 22);
+    color: darkgreen;
     text-decoration: none;
     text-decoration-color: darkslategray;
 }
 
 .post-entry p {
     margin: 0;
-    font-weight: 100;
+    font-weight: 300;
+    font-size: 18px;
     text-decoration: none;
+    color: black !important;
+    font-family: 'Lato', serif;
 }
+
 
 .post-entry h2 a:hover {
     color: darkgreen;
 }
 
 footer{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fredoka', sans-serif;
     border-top: 1px dashed black !important;
     text-align: center;
 }
@@ -75,3 +90,9 @@ footer a{
 footer ul li{
     display: inline;
   }
+
+
+.edit a{
+    color: red;
+    font-family: 'Fredoka', sans-serif;
+}
