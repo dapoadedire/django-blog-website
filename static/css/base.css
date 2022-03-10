@@ -14,7 +14,7 @@ header{
 }
 
 body{
-    font-size: 18px;
+    font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50px;
     margin-right: 50px;
@@ -57,7 +57,7 @@ body{
 
 .post-entry p {
     margin: 0;
-    font-weight: 400;
+    font-weight: 200;
     text-decoration: none;
 }
 
