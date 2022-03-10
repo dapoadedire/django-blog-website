@@ -55,8 +55,8 @@ body{
 
 .post-entry p {
     margin: 0;
-    font-size: 12px;
-    text-decoration: underline;
+    font-weight: 300;
+    text-decoration: none;
 }
 
 .post-entry h2 a:hover {
