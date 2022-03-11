@@ -2,14 +2,16 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
-        <title>Dapo Adedire's Blog</title>
-        <meta name="google" content="notranslate" />
+        
+        <meta name="author" content="Dapo Adedire" />
+        <meta name="viewport" 
+        content="width=device-width, initial_scale=1.0, minimum-scale=0.5, maximum-scale=3.0"/>
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
-        {% comment %} <link rel="preconnect" href="https://fonts.googleapis.com"> {% endcomment %}
-        {% comment %} <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> {% endcomment %}
+        <title>Dapo Adedire's Blog</title>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;373&family=Lato:wght@400&family=League+Spartan:wght@400&display=swap" rel="stylesheet">
     </head>
 
@@ -24,6 +26,17 @@
         </header>
 
         <div>
+            <div class="greetings">
+            {%if user.is_authenticated%}
+                <p id="green">Hi {{ user.username }}!,
+                <a id ="red" href="{% url 'logout' %}">log out.</a></p>
+            {% else %}
+                <p id="red">You are not logged in!,
+                <a id="green" href="{% url 'login' %}"> log in.</a></p> 
+            {% endif %}
+            </div>
+
+
             {% block content %}
 
             
@@ -37,6 +50,8 @@
                     <li><a href="http://www.twitter.com/dapo_adedire/" target="_blank">Twitter</a></li>
                     <li><a href="http://www.linkedin.com/in/dapoadedire" target="_blank">LinkedIn</a></li>
                     <li><a href="http://www.github.com/dapoadedire/" target="_blank">Github</a></li>
+                    <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-linkedin"></i>
                 </ul>
             </p>
         </footer>

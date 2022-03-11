@@ -15,8 +15,8 @@ body{
     font-size: 16px;
     font-weight: 'Fredoka', sans-serif;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .nav-left {
@@ -96,3 +96,15 @@ footer ul li{
     color: red;
     font-family: 'Fredoka', sans-serif;
 }
+.greetings{
+    font-family: 'Fredoka', sans-serif;
+}
+
+#green{
+    color: green;
+}
+#red{
+    color: red;
+}
+
+
