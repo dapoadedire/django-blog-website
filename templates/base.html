@@ -21,7 +21,7 @@
                 <h1><a href="{% url 'home' %}">Dapo Adedire's Blog</a></h1>
             </div>
             <div class="nav-right">
-              {% if user.is_authenticated %}  
+              {% if user.is_superuser %}  
                 <a href="{% url 'post_new' %}">+ New Blog Post</a>
               {% endif %}
             </div>
@@ -34,7 +34,8 @@
                 <a id ="red" href="{% url 'logout' %}">log out.</a></p>
             {% else %}
                 <p id="red">You are not logged in!,
-                <a id="green" href="{% url 'login' %}"> log in.</a></p> 
+                <a id="green" href="{% url 'login' %}"> sign in, </a> 
+                <a id="green" href="{% url 'signup' %}">or sign up.</a></p> 
             {% endif %}
             </div>
 
