@@ -1,5 +1,5 @@
 header h1 a {
-    color: darkgreen; 
+    color: rgba(212,174,141,.99); 
     text-decoration: none !important;
    
 }
@@ -9,13 +9,13 @@ header h1 a {
 
 header{
     display: flex;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px solid rgba(212,174,141,.99); ;
     margin-bottom: 2rem;
     font-family: 'Fredoka', sans-serif;
 }
 
 body{
-    background-color: #ccc;
+    background-color: #232323;
     font-size: 16px;
     font-weight: 'Fredoka', sans-serif;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -33,23 +33,37 @@ body{
     font-weight: 900;
 }
 .nav-right a{
-    color: darkgreen;
+    color: rgba(212,174,141,.99); ;
+}
+
+.about{
+    margin-bottom: 3rem;
+    border-bottom: 2px solid rgba(212,174,141,.99); 
+    padding: 1rem;
 }
 .about a, h2{
-    color: darkgreen;
+    color: rgba(212,174,141,.99);
+    text-decoration: none;
 }
+
+
 .about h2{
     font-family: 'League Spartan', sans-serif;
 }
-.about p{
+.about p, .delete, .edit{
     font-family: 'Lato', serif;
+    color: rgba(212,174,141,.99); 
+}
+
+#pub{
+    font-size: 0.9rem;
+    font-family: 'Lato', sans-serif;
+    color: rgba(212,174,141,.99)  !important;
 }
 
 .post-entry {
     padding: 15px;
-    margin-bottom: 2rem;
-    box-shadow: -5px -5px 15px 2px #fff, 5px 5px 15px 2px #777;
-    border-radius: 5px;
+    margin-bottom: 1rem;
 }
 
 .post-entry h2{
@@ -59,16 +73,14 @@ body{
 }
 
 .post-entry h2 a{
-    color: rgb(10, 92, 10);
-    text-decoration: none;
-    text-decoration-color: darkslategray;
+    color: rgba(212,174,141,.99); 
+    text-decoration: none !important;
 }
 
 
 .post-entry h2 a:visited {
-    color: darkgreen;
+    color: rgba(212,174,141,.99);
     text-decoration: none;
-    text-decoration-color: darkslategray;
 }
 
 .post-entry p {
@@ -76,43 +88,49 @@ body{
     font-weight: 300;
     font-size: 18px;
     text-decoration: none;
-    color: black !important;
+    color: rgba(212,174,141,.99) !important; 
     font-family: 'Lato', serif;
 }
 
 
 .post-entry h2 a:hover {
-    color: darkgreen;
+    color: rgba(209, 131, 63, 0.99); 
+    text-decoration: underline;
 }
 
 footer{
     font-family: 'Fredoka', sans-serif;
-    border-top: 1px dashed black !important;
+    border-top: 2px solid rgba(212,174,141,.99) !important;
     text-align: center;
+    color: rgba(212,174,141,.99); 
 }
 footer a{
-    color:darkgreen;
+    color: rgba(212,174,141,.99);
+    text-decoration: underline;
 }
 
 footer ul li{
     display: inline;
+    margin-right: 0.5rem;
+    font-size: 1rem;
   }
 
 
 .edit a{
-    color: red;
+    color: rgba(212,174,141,.99);
     font-family: 'Fredoka', sans-serif;
 }
 .greetings{
     font-family: 'Fredoka', sans-serif;
+    padding-left: 1rem;
 }
 
 #green{
-    color: green;
+    color: rgba(212,174,141,.99); ;
     font-weight: 600;
 }
 #red{
-    color: red;
+    color: rgba(223, 67, 20, 0.99);
 }
 
 
