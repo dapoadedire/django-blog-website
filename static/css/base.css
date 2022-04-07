@@ -4,6 +4,9 @@ header h1 a {
    
 }
 
+
+
+
 header{
     display: flex;
     border-bottom: 1px dashed black;
@@ -12,6 +15,7 @@ header{
 }
 
 body{
+    background-color: #ccc;
     font-size: 16px;
     font-weight: 'Fredoka', sans-serif;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -43,6 +47,8 @@ body{
 
 .post-entry {
     margin-bottom: 2rem;
+    box-shadow: -5px -5px 15px 2px #fff, 5px 5px 15px 2px #777;
+    border-radius: 5px;
 }
 
 .post-entry h2{
